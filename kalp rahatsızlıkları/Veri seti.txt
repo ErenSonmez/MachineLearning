@@ -1,0 +1,20 @@
+Girişler:
+1: age--kişinin yaşı
+2: sex--kişinin cinsiyeti (1=erkek; 0=kadın)
+3: cp(chest pain type)--göğüs ağrısı tipi
+4: trestbps--kişinin dinlenmedeki kan basıncı
+5: chol--mg/dl cinsinden serum kolestrolü (mg/dl=desilitre başına miligram,belirli miktar kandaki belirli maddenin miktarını gösteren ölçüm)
+6: fbs--kişinin aç karnına ölçülen kan şekeri(>120mg/dl ise 1, değilse 0)
+7: restecg--kişinin dinlendikten sonraki elektrokardiyografik sonuçları
+8: thalach--kişinin elde edilen maksimum kalp atış hızı
+9: exang--egzersize bağlı anjina(efor anjinası olarak da bilinir.)(anjina: bir çeşit kalp rahatsızlığı)
+10: oldpeak--ST depresyon(segment depresyonu)(koroner arter hastalıkları tanı ve değerlendirilmesinde kullanılan fonksiyonel testlerden biri)
+11: slope-- ST segmentinin eğimi
+12: ca-- büyük damar sayısı (0-3 arası sınıflandırılmıştır.)
+13: thal--talasemi tanısı(normal=3, fixed defect=6, reversable defect=7 olarak 3 şekilde sınıflandırılmıştır.)(kalıtımsal)
+
+Çıkış:
+1: target--kalp rahatsızlığı tanısı(0=sağlıklı,1=hasta)
+
+https://archive.ics.uci.edu/ml/datasets/Heart+Disease
+https://www.kaggle.com/johnsmith88/heart-disease-dataset
